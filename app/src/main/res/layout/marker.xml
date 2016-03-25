@@ -1,0 +1,33 @@
+<RelativeLayout
+    android:id="@+id/locationMarker"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="30dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add_location_black_36dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/locationMarkertext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner_map"
+        android:gravity="center"
+        android:minWidth="180dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:text=" Set your Location "
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="25dp" />
+
+</RelativeLayout>
